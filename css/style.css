@@ -8,53 +8,63 @@
 /* COMMON */
 .center {
     margin: auto;
-    /* REGOLA DI LAYOUT CORRETTA: margin: 0 auto; */
+/* REGOLA DI LAYOUT CORRETTA: margin: 0 auto; */
     width: 80%;
     max-width: 1500px;
 }
 
+.button {
+    border-radius: 30px;
+    color: black;
+    padding: 10px;
+    background-color: white;
+}
+
+.small>.button {
+    font-size: 0.8rem;
+}
 .dotted {
     border: 2px dashed black;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Whitney", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+ul {
+    list-style-type: none;
+}
 .gray_bkg {
     background-color: lightgray;
 }
 
 /* TEXT ALIGN CLASS */
-.text_align_left{
-    text-align: left;
-}
+
 .text_align_right {
     text-align: right;
 }
-.text_align_center {
-    text-align: center;
-}
+
 /* HEADER */
 .main_header {
     height: 80px;
     display: flex;
     /* debug */
-    background-color: aqua;
+    background-color: #255EE9;
 }
+
 /* NAV BAR */
 .nav_list {
     display: flex;
     justify-content: center;
-    list-style-type: none;
     justify-content: space-between;
-     /* debug */
-     background-color: orange;
+    color: white;
 }
 
-.nav_list>li {
-    padding: 5px;
+.nav_center_list {
+    display: flex;
+    justify-content: space-around;
 }
+
 
 .big {
     flex-grow: 3;
@@ -66,7 +76,9 @@ body {
 /* HERO IMG */
 .hero_img_container {
 display: flex;
-    /* debug */
+background-image: url(../img/jumbo.png);
+background-size: cover;
+/* debug */
 background-color: blue;
 height: 500px;
 }
