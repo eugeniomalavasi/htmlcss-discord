@@ -1,0 +1,171 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+.center {
+    margin: auto;
+    /* REGOLA DI LAYOUT CORRETTA: margin: 0 auto; */
+    width: 80%;
+    max-width: 1500px;
+}
+
+.dotted {
+    border: 2px dashed black;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gray_bkg {
+    background-color: lightgray;
+}
+
+/* TEXT ALIGN CLASS */
+.text_align_left{
+    text-align: left;
+}
+.text_align_right {
+    text-align: right;
+}
+.text_align_center {
+    text-align: center;
+}
+/* HEADER */
+.main_header {
+    height: 80px;
+    display: flex;
+    /* debug */
+    background-color: aqua;
+}
+/* NAV BAR */
+.nav_list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    justify-content: space-between;
+     /* debug */
+     background-color: orange;
+}
+
+.nav_list>li {
+    padding: 5px;
+}
+
+.big {
+    flex-grow: 3;
+}
+.small {
+    flex-grow: 1;
+}
+
+/* HERO IMG */
+.hero_img_container {
+display: flex;
+    /* debug */
+background-color: blue;
+height: 500px;
+}
+
+.hero_image {
+    width: 40%;
+    height: 80%;
+    background-color: lightpink;
+}
+
+/* TWO COLUMN PART */
+
+.two_clmn_container {
+    display: flex;
+    /* debug */
+    height: 600px;
+}
+
+.two_clm {
+    height: 70%;
+    display: flex;
+}
+
+.two_clm_reverse {
+    height: 70%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.main_chunk {
+    flex-grow: 2;
+    /* debug */
+    background-color: lightgreen;
+}
+
+.secondary_chunk {
+    flex-grow: 4;
+    /* debug */
+    background-color: lightsalmon;
+}
+
+/* ONE ROW PART */
+.one_row_container {
+    display: flex;
+    /* debug */
+    height: 1000px;
+}
+
+.big_row {
+    background-color: lightskyblue;
+    height: 90%;
+}
+
+/* FOOTER */
+.five_row_container {
+    background-color: #23272A;
+    height: 500px;
+    padding: 10px 0 20px 0;
+}
+
+.five_row {
+    
+    /* debug */
+    height: 100%;
+    display: flex;
+}
+
+.box_big {
+    flex-grow: 2;
+    background-color: orange;
+    border: 2px dotted white;
+}
+
+.box_small {
+    flex-grow: 1;
+    background-color: aqua;
+    border: 2px dotted black;
+}
+
+.footer_container {
+    background-color: #23272A;
+    border-top: 1px solid white;
+    border-bottom: 2px solid white;
+    display: flex;
+    height: 115px;
+
+}
+
+.main_footer {
+    background-color: aqua;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot_box {
+    background-color: lightsalmon;
+    padding: 5px;
+    border: 1px dashed black;
+}
+
