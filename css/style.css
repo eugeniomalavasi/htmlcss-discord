@@ -39,7 +39,7 @@ ul {
     list-style-type: none;
 }
 .gray_bkg {
-    background-color: lightgray;
+    background-color: F6F6F6;
 }
 
 /* TEXT ALIGN CLASS */
@@ -184,9 +184,31 @@ height: 400px;
     text-align: center;
 }
 
-.big_row>a {
-    
+.big_row>h2  {
+    padding: 25px;
 } 
+
+.star_container {
+    width: 500px;
+    background-image: url(../img/stars.svg);
+    margin: auto;
+    background-size: contain;
+}
+.star_bkg {
+    padding: 25px 0px;
+    margin-bottom: 50px;
+}
+
+.button_box {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.button_box a {
+    background-color: #7289DA;
+    color: white;
+}
 
 /* FOOTER */
 .five_row_container {
@@ -195,8 +217,7 @@ height: 400px;
     padding: 10px 0 20px 0;
 }
 
-.five_row {
-    
+.five_row { 
     /* debug */
     height: 100%;
     display: flex;
