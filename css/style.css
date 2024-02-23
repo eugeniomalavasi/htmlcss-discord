@@ -68,9 +68,11 @@ ul {
 
 .big {
     flex-grow: 3;
+    padding-top: 10px;
 }
 .small {
     flex-grow: 1;
+    padding-top: 10px;
 }
 
 /* HERO IMG */
@@ -129,15 +131,27 @@ height: 400px;
 }
 
 .main_chunk {
-    flex-grow: 2;
-    /* debug */
-    background-color: lightgreen;
+    width: 30%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
 }
 
+
 .secondary_chunk {
-    flex-grow: 4;
-    /* debug */
-    background-color: lightsalmon;
+    width: 70%;
+    background-image: url(../img/item1.svg);
+    background-repeat: no-repeat;
+}
+
+.secondary_claim {
+    text-align: left;
+    padding-bottom: 15px;
+    font-size: 2.5rem;
+}
+
+.main_text {
+    line-height: 1.5rem;
 }
 
 /* ONE ROW PART */
