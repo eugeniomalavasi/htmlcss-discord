@@ -299,3 +299,8 @@ padding: 150px 0px;
     font-size: 0.95rem;
     padding: 15px;
 }
+
+.box_small ul>.strong_li {
+    color: #7289DA;
+    font-weight: 600;
+}
