@@ -26,6 +26,8 @@ img {
 
 .small>.button {
     font-size: 0.8rem;
+    display: flex;
+    justify-content: end;
 }
 .dotted {
     border: 2px dashed black;
@@ -52,30 +54,30 @@ ul {
 .main_header {
     height: 80px;
     display: flex;
-    /* debug */
     background-color: #255EE9;
 }
 
 /* NAV BAR */
 .nav_list {
     display: flex;
-    justify-content: center;
-    justify-content: space-between;
     color: white;
 }
 
 .nav_center_list {
     display: flex;
     justify-content: space-around;
+    height: 100%;
+    align-items: center;
 }
 
 .big {
-    flex-grow: 3;
-    padding-top: 10px;
+    flex-grow: 1;
+    /* padding-top: 10px; */
 }
 .small {
-    flex-grow: 1;
-    padding-top: 10px;
+    width: auto;
+    
+    /* padding-top: 10px; */
 }
 
 /* HERO IMG */
@@ -83,7 +85,7 @@ ul {
 display: flex;
 background-image: url(../img/jumbo.png);
 background-size: cover;
-height: 400px;
+padding: 150px 0px;
 }
 
 .hero_image {
